@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Simple JS Calculator</title>
+</head>
+<body id="main">
+
+        <div id="result" style="font-size: 50px;"></div>
+
+        <input id="inp" type="text" min="0" >
+
+    <div class="grid-box">
+
+        <!-- digit btns -->
+            <button id="zero" onclick="zero()">0</button> <!-- zero btn --> 
+            <button id="one" onclick="one()">1</button> <!-- one btn -->
+            <button id="two" onclick="two()">2</button> <!-- two btn -->
+            <button id="three" onclick="three()">3</button> <!-- three btn -->
+            <button id="four" onclick="four()">4</button> <!-- four btn -->
+            <button id="five" onclick="five()">5</button> <!-- five btn -->
+            <button id="six" onclick="six()">6</button> <!-- six btn -->
+            <button id="seven" onclick="seven()">7</button> <!-- seven btn -->
+            <button id="eight" onclick="eigth()">8</button> <!-- eight btn -->
+            <button id="nine" onclick="nine()">9</button> <!-- nine btn -->
+            
+            <!-- operator btns -->
+            <button id="plus" onclick="plus()">+</button> <!-- plus btn -->
+            <button id="minus" onclick="minus()">-</button> <!-- minus btn -->
+            <button id="mul" onclick="mul()">x</button> <!-- multiply btn -->
+            <button id="div" onclick="div()">/</button> <!-- divide btn -->
+            <button id="equal" onclick="equal(); result()">=</button> <!-- equal btn -->
+            <button id="clear" onclick="clr()">c</button> <!-- clear btn -->
+            <button onclick="point()">.</button> <!-- point btn -->
+            
+            
+            
+            
+    </div>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
